@@ -4,6 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
+        <link rel="stylesheet" type="text/css" href="page2-1.css">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>表單</title>
@@ -18,23 +19,27 @@
     </head>
     <body>
     <form >
-           <label for="what">You name?</label>
+           <div style="text-align:center;"><h2>表&nbsp;單</h2></div>
+           <label for="what"><h4>You name?</h4></label>
            <input type="text" required id="what" placeholder="First last"autofocus>
            <br>
            <br>
-           <lable>What is your gender?</lable>
            <br>
+           <lable><h4>What is your gender?</h4></lable>
            <label><input type ="radio" name="gender" value="male" aytofocus>Male</label>
            <br>
            <label ><input type ="radio" name="gender" value="female" aytofocus>Female</label>
            <br>
            <br>
-            <label for="birth">Birthday</label>
+           <br>
+            <label for="birth"><h4>Birthday</h4></label>
             <input type="date" required id="birth" autofocus>
             <br>
             <br>
-           <label for="trans">which form of transport do you like?</label>
+            <br>
+           <label for="trans"><h4>which form of transport do you like?</h4></label>
            <label>choose as many as you like</lable>
+            <br>
             <br>
            <label><input type="checkbox" id="trans" value="walking" autofocus>walking</label><br>
            <label><input type="checkbox" id="trans" value="bike" autofocus>bike</label><br>
@@ -46,7 +51,8 @@
            <label><input type="checkbox" id="trans" value="airplane" autofocus>airplane</label>
            <br>
            <br>
-           <label for="edu">What is the highest level of education you have completed?</label>
+           <br>
+           <label for="edu"><h4>What is the highest level of education you have completed?</h4></label>
            <br>
            <label><input type="radio" required id="edu" name="edu"value="less than high school" autofocus>less than high school</label><br>
            <label><input type="radio" required id="edu" name="edu"value="High School or equivalent" autofocus>High School or equivalent</label><br>
@@ -59,8 +65,8 @@
            <label><input type="radio" required id="edu" name="edu"value="I prefer not to answer " autofocus>I prefer not to answer </label>
            <br>
            <br>
-           <label for="work">Which industry do you work in or are most involved with?</label>
            <br>
+           <label for="work"><h4>Which industry do you work in or are most involved with?</h4></label>
           <label><input type="text"  id="work" list="workType">
           <datalist id="workType">
             <option value="Accounting" />
@@ -73,22 +79,25 @@
             <option value="Information Technology&amp;Services"> </option></datalist></label>
            <br>
            <br>
-           <label for="phone">Your phone</label>
            <br>
+           <label for="phone"><h4>Your phone</h4></label>
            <label><input type="tel" id="phone" autofocus>
            <br>
            <br>
-           <label for="email">Email address</label>
            <br>
+           <label for="email"><h4>Email address</h4></label>
            <label><input type="email" id="email" autofocus>
            <br>
            <br>
-           <label for="web">Personal Website</label>
            <br>
+           <label for="web"><h4>Personal Website</h4></label>
            <label><input type="url" id="web" autofocus>
            <br>
-           <br>            
+           <br>
+           <br> 
+        <div class="button">              
         <input type ="submit" value="SUBMIT">
+      </div>
     </form>    
     </body>
     </html>
