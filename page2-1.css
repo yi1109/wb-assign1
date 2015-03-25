@@ -8,6 +8,7 @@ body{
     border-width: 1.2em;
     border-style: double;
     margin: 0;
+    font-family: 'Oswald', sans-serif;
 }
 h4{
 	font-weight:bold;
@@ -16,6 +17,7 @@ h4{
 }
 
 h2{
+
 	background-color: rgba(214, 214, 174, 0.6);
     padding:1em;
     margin:0px;
