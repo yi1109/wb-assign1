@@ -1,3 +1,6 @@
+label{
+  display:inline;
+}
 body{
 	position: relative;
 	background :url(http://subtlepatterns.com/patterns/notebook.png);
