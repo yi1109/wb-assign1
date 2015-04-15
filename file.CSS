@@ -58,9 +58,9 @@ footer{
 
 .box {
   position: relative;
-  width: 280px;
+  width: 260px;
   margin:auto;
-  height: 470px;
+  height: 400px;
   background-color: rgba(241, 238, 233,1);
   box-shadow: 0 1px 5px rgba(0,0,0,0.25), 0 0 50px rgba(0,0,0,0.1) inset;
   border-radius: 0%     1%     1%     1% /     1%     1%     1%     1%;
